@@ -1,9 +1,10 @@
 [default]
 
-#
-access_key = miniominiob
+# Access key and Secret key
+access_key = miniominio
 access_token = miniominio
 secret_key = miniominio
+
 
 host_base = localhost:9000
 host_bucket = localhost:9000
