@@ -44,6 +44,7 @@ To create a bucket and upload data to minio, type:
 s3cmd --config minio.s3cfg mb s3://iris
 s3cmd --config minio.s3cfg put data/iris.parq s3://iris
 ```
+
 To list all object in all buckets, type:
 
 ```bash
