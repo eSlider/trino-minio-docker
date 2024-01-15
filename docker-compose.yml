@@ -36,7 +36,7 @@ services:
       - "9000:9000" # S3 API
       - "9001:9001" # Console
     volumes:
-      - ./var/minio:/data
+      - "./var/minio:/data:rw"
     env_file: [ ./etc/.env ]
     command: 'server --address ":9000" --console-address ":9001" /data'
 

@@ -89,6 +89,13 @@ SHOW TABLES IN minio.iris;
 SELECT * FROM minio.iris.iris_parquet LIMIT 5;"
 ```
 
+# Usage
+
+* Trino: http://localhost:8080
+* Minio: http://localhost:9000
+
 # License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) for details.
+
+
