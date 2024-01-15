@@ -35,11 +35,11 @@
     </property>
     <property>
         <name>fs.s3a.access.key</name>
-        <value>minio_access_key</value>
+        <value>miniominio</value>
     </property>
     <property>
         <name>fs.s3a.secret.key</name>
-        <value>minio_secret_key</value>
+        <value>miniominio</value>
     </property>
     <property>
         <name>fs.s3a.endpoint</name>
